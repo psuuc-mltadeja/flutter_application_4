@@ -24,7 +24,7 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.amber.shade100,
+      backgroundColor: const Color.fromARGB(255, 255, 255, 255),
       body: toPlay ? Questions() : TitleHome(startPlay),
     );
   }

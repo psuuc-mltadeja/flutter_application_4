@@ -14,11 +14,9 @@ class TitleHome extends StatelessWidget {
         Image.asset('assets/images/home_back.jpg'),
         const SizedBox(height: 15),
         const Text(
-          'Quiz!',
+          'Let us Start!',
           style: TextStyle(
-              fontSize: 34,
-              fontWeight: FontWeight.bold,
-              color: Colors.deepOrange),
+              fontSize: 34, fontWeight: FontWeight.bold, color: Colors.blue),
         ),
         const SizedBox(
           height: 30,
@@ -29,7 +27,7 @@ class TitleHome extends StatelessWidget {
           child: OutlinedButton(
               onPressed: startPlay_call,
               style: OutlinedButton.styleFrom(
-                  backgroundColor: const Color.fromARGB(255, 123, 71, 213),
+                  backgroundColor: const Color.fromARGB(255, 40, 148, 244),
                   elevation: 5),
               child: const Text(
                 'Play!',
